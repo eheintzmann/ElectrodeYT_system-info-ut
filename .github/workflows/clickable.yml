@@ -30,7 +30,7 @@ jobs:
       - name: Build the app
         run: clickable build
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: "ubuntu-info-click"
           path: build/*/app/*.click
